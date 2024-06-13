@@ -1,18 +1,15 @@
-# Ignore node_modules except for .gitkeep
-client/node_modules/*
-!client/node_modules/.gitkeep
 
-server/node_modules/*
-!server/node_modules/.gitkeep
+# Ignore node_modules in both client and server directories
 
-# Ignore build and dist directories except for .gitkeep
-client/build/*
-!client/build/.gitkeep
+server/node_modules/
 
-server/dist/*
-!server/dist/.gitkeep
+# Ignore build output in the client directory
+client/build/
 
-# Ignore environment files
+# Ignore distribution output in the server directory
+server/dist/
+
+# Ignore environment files in both client and server directories
 
 server/.env
 
