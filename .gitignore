@@ -1,0 +1,20 @@
+# Ignore node_modules except for .gitkeep
+client/node_modules/*
+!client/node_modules/.gitkeep
+
+server/node_modules/*
+!server/node_modules/.gitkeep
+
+# Ignore build and dist directories except for .gitkeep
+client/build/*
+!client/build/.gitkeep
+
+server/dist/*
+!server/dist/.gitkeep
+
+# Ignore environment files
+
+server/.env
+
+# Ignore macOS system files
+.DS_Store
